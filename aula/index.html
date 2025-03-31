@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título do site</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Nike</h1>
+
+    
+
+    <h2>Marco A. S. Bosco</h2>
+
+    <footer>
+        <p>©Nike 2025</p>
+    </footer>
+
+    <button onclick="mostrarImagem()">Mostrar Imagem</button>
+
+    <img id="imagem" src="img/chuteira.avif" style="display: none; width: 300px;">
+    <script>
+        function mostrarImagem() {
+            let imagem = document.getElementById("imagem") 
+            if(imagem.style.display == "block"){
+                imagem.style.display = "none"
+            } else {
+                imagem.style.display = "block"
+            }
+            
+        }
+
+    </script>
+
+    <section id="projeto" tabindex="0">
+</body>
+</html>

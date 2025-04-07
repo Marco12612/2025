@@ -43,3 +43,44 @@ button {
     padding: 5px;
     border-radius: 7px;
 }
+
+#trabalho-corpo {
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 800px; /* Largura máxima */
+    margin: 30px auto; /* Centraliza a div horizontalmente */
+  }
+  
+  #trabalho-corpo ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding-left: 0; /* Remove o preenchimento da lista */
+  }
+  
+  #trabalho-corpo li {
+    margin-bottom: 15px; /* Espaçamento entre os itens */
+    font-family: Arial, sans-serif; /* Fonte */
+    line-height: 1.6; /* Espaçamento entre as linhas */
+  }
+  
+  #trabalho-corpo li strong {
+    color: #007BFF; /* Cor azul para os títulos */
+  }
+  
+  #trabalho-corpo li code {
+    background-color: #f1f1f1; /* Cor de fundo para o código */
+    padding: 2px 6px; /* Espaçamento dentro do código */
+    border-radius: 4px; /* Bordas arredondadas no código */
+    font-size: 0.9em; /* Tamanho de fonte um pouco menor */
+    color: #333; /* Cor do texto do código */
+  }
+  
+  #trabalho-corpo li:last-child {
+    margin-bottom: 0; /* Remove o espaçamento extra do último item */
+  }
+
+  #icone-programacao {
+    width: 300px;
+  }
+  

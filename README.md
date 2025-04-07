@@ -1,6 +1,6 @@
-# Site acessível Nike Lunar Gato II
+# Site do trabalho de programação.
 # Sobre
-Apresentação do tênis de futsal da Nike.
+Apresentação do trabalho de programação.
 ## Recursos de acessibilidade
 - alt
 - tab-index

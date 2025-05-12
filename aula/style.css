@@ -7,6 +7,8 @@ body {
     margin: 0; /* Remove a margem padrão */
     text-align: center; /* Centraliza os textos */
     background-color: #0952a0b0;
+    background-image: url(./img/background2.jpg);
+    background-size: cover;
 }
 
 /* Estilo para a div que contém a imagem */
@@ -91,5 +93,12 @@ button {
 
   #icone-programacao {
     width: 300px;
+  }
+
+  #imagem {
+    width: 500px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
   }
   

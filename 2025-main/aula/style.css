@@ -1,0 +1,165 @@
+body {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: center; /* Centraliza no eixo vertical */
+    align-items: center; /* Centraliza no eixo horizontal */
+    height: 100%; /* Faz o body ocupar 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão */
+    text-align: center; /* Centraliza os textos */
+    background-color: #0952a0b0;
+    background-image: url(./img/background2.jpg);
+    background-size: cover;
+}
+
+/* Estilo para a div que contém a imagem */
+.imagem-container {
+    text-align: center; /* Garante que a imagem fique centralizada */
+}
+
+/* Estilo para as imagens */    
+img {
+    max-width: Defina um tamanho; /* A imagem nunca ultrapassará a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o título h1 */
+h1 {
+    color:Escolha uma cor;
+    margin-top: Defina o tamanho da fonte; /* Espaço superior */
+}
+
+/* Estilo para o subtítulo h2 */
+h2 {
+    color:Escolha uma cor;
+    margin-top: Defina um tamnho; /* Espaço superior */
+}
+
+#imagem {
+    width: 300px;
+}
+
+button {
+    background-color: #fdeecf;
+    color: #37260c;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+#rodape {
+  background-color: #f4f4f4; /* Cor de fundo suave */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 800px; /* Largura máxima */
+  margin: 30px auto; /* Centraliza a div horizontalmente */
+}
+
+#trabalho-corpo {
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 800px; /* Largura máxima */
+    margin: 30px auto; /* Centraliza a div horizontalmente */
+  }
+  
+  #trabalho-corpo ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding-left: 0; /* Remove o preenchimento da lista */
+  }
+  
+  #trabalho-corpo li {
+    margin-bottom: 15px; /* Espaçamento entre os itens */
+    font-family: Arial, sans-serif; /* Fonte */
+    line-height: 1.6; /* Espaçamento entre as linhas */
+  }
+  
+  #trabalho-corpo li strong {
+    color: #007BFF; /* Cor azul para os títulos */
+  }
+  
+  #trabalho-corpo li code {
+    background-color: #f1f1f1; /* Cor de fundo para o código */
+    padding: 2px 6px; /* Espaçamento dentro do código */
+    border-radius: 4px; /* Bordas arredondadas no código */
+    font-size: 0.9em; /* Tamanho de fonte um pouco menor */
+    color: #333; /* Cor do texto do código */
+  }
+  
+  #trabalho-corpo li:last-child {
+    margin-bottom: 0; /* Remove o espaçamento extra do último item */
+  }
+
+  #icone-programacao {
+    width: 300px;
+  }
+
+  #imagem {
+    width: 500px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  form {
+    background-color: #ffffff; /* Cor de fundo do formulário */
+    padding: 30px;
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 500px; /* Largura máxima do formulário */
+    margin: 0 auto;
+}
+label {
+  display: block; /* Faz com que o label ocupe toda a largura e o input vá para a próxima linha */
+  margin-bottom: 8px; /* Espaçamento abaixo do label */
+  font-weight: bold; /* Deixa o texto em negrito */
+  color: #333; /* Cor do texto do label */
+  font-size: 1.1em; /* Tamanho da fonte um pouco maior */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: calc(100% - 20px); /* Ocupa quase 100% da largura, descontando o padding */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Cantos arredondados */
+    font-size: 1em; /* Tamanho da fonte */
+    color: #555; /* Cor do texto digitado */
+    outline: none; /* Remove a borda de foco padrão do navegador */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave para o foco */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff; /* Mudar a cor da borda para azul */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Adiciona uma sombra azul suave */
+}
+
+/* Estilos para o placeholder (texto dentro do input antes de digitar) */
+input::placeholder,
+textarea::placeholder {
+    color: #999; /* Cor mais clara para o placeholder */
+    font-style: italic; /* Texto em itálico */
+}
+
+/* Estilos para o botão de enviar */
+button[type="submit"] {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    padding: 12px 20px; /* Espaçamento interno */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima */
+    font-size: 1.1em; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Estilos para o botão de enviar ao passar o mouse */
+button[type="submit"]:hover {
+    background-color: #218838; /* Escurece um pouco o verde ao passar o mouse */
+}

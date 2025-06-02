@@ -1,0 +1,190 @@
+body {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos verticalmente */
+  justify-content: center; /* Centraliza no eixo vertical */
+  align-items: center; /* Centraliza no eixo horizontal */
+  height: 100%; /* Faz o body ocupar 100% da altura da tela */
+  margin: 0; /* Remove a margem padrão */
+  text-align: center; /* Centraliza os textos */
+  background-color: #0952a0b0; /* Este valor será sobreposto pela imagem */
+  background-image: url(./img/campo.jpg);
+  background-size: cover;
+  background-position: center; /* Centraliza a imagem de fundo */
+}
+
+/* Estilo para a div que contém a imagem */
+.imagem-container {
+  text-align: center; /* Garante que a imagem fique centralizada */
+}
+
+/* Estilo para as imagens */    
+img {
+  max-width: 80%; /* A imagem nunca ultrapassará 80% da largura da tela */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o título h1 */
+h1 {
+  color: #3A4F3F; /* Cor de verde escuro das folhas */
+  margin-top: 2em; /* Espaço superior */
+}
+
+/* Estilo para o subtítulo h2 */
+h2 {
+  color: #5C7A65; /* Um verde um pouco mais claro */
+  margin-top: 1em; /* Espaço superior */
+}
+
+#imagem {
+  width: 300px;
+}
+
+button {
+  background-color: #DDEEE5; /* Cor clara que remete ao céu ou nuvens */
+  color: #3A4F3F; /* Cor de texto escuro */
+  border: 2px solid #5C7A65; /* Borda com tom de verde */
+  padding: 10px 15px; /* Aumenta o padding para melhor visualização */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5C7A65; /* Mudar cor de fundo no hover */
+  color: #FFFFFF; /* Mudar cor do texto no hover */
+}
+
+#rodape {
+background-color: #F8F8F8; /* Cor de fundo suave, quase branca */
+padding: 20px; /* Espaçamento interno */
+border-radius: 8px; /* Bordas arredondadas */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+max-width: 800px; /* Largura máxima */
+margin: 30px auto; /* Centraliza a div horizontalmente */
+color: #3A4F3F; /* Cor do texto para o rodapé */
+}
+
+#trabalho-corpo {
+  margin-top: 10px;
+  background-color: #F8F8F8; /* Cor de fundo suave, quase branca */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  max-width: 800px; /* Largura máxima */
+  margin: 30px auto; /* Centraliza a div horizontalmente */
+  color: #3A4F3F; /* Cor do texto para o corpo do trabalho */
+}
+
+#trabalho-corpo ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding-left: 0; /* Remove o preenchimento da lista */
+}
+
+#trabalho-corpo li {
+  margin-bottom: 15px; /* Espaçamento entre os itens */
+  font-family: Arial, sans-serif; /* Fonte */
+  line-height: 1.6; /* Espaçamento entre as linhas */
+}
+
+#trabalho-corpo li strong {
+  color: #5C7A65; /* Cor verde para os títulos dos itens da lista */
+}
+
+#trabalho-corpo li code {
+  background-color: #E2EFE7; /* Cor de fundo para o código, tom de verde claro */
+  padding: 2px 6px; /* Espaçamento dentro do código */
+  border-radius: 4px; /* Bordas arredondadas no código */
+  font-size: 0.9em; /* Tamanho de fonte um pouco menor */
+  color: #3A4F3F; /* Cor do texto do código */
+}
+
+#trabalho-corpo li:last-child {
+  margin-bottom: 0; /* Remove o espaçamento extra do último item */
+}
+
+#icone-programacao {
+  width: 300px;
+}
+
+#imagem {
+  width: 500px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+
+form {
+  background-color: #FFFFFF; /* Cor de fundo do formulário */
+  padding: 30px;
+  border-radius: 8px; /* Cantos arredondados */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  width: 100%;
+  max-width: 500px; /* Largura máxima do formulário */
+  margin: 0 auto;
+}
+label {
+display: block; /* Faz com que o label ocupe toda a largura e o input vá para a próxima linha */
+margin-bottom: 8px; /* Espaçamento abaixo do label */
+font-weight: bold; /* Deixa o texto em negrito */
+color: #3A4F3F; /* Cor do texto do label */
+font-size: 1.1em; /* Tamanho da fonte um pouco maior */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 20px); /* Ocupa quase 100% da largura, descontando o padding */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #A5C0AD; /* Borda com tom de verde claro */
+  border-radius: 5px; /* Cantos arredondados */
+  font-size: 1em; /* Tamanho da fonte */
+  color: #3A4F3F; /* Cor do texto digitado */
+  outline: none; /* Remove a borda de foco padrão do navegador */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave para o foco */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea[type="focus"] {
+  border-color: #5C7A65; /* Mudar a cor da borda para um verde mais escuro */
+  box-shadow: 0 0 8px rgba(92, 122, 101, 0.2); /* Adiciona uma sombra verde suave */
+}
+
+/* Estilos para o placeholder (texto dentro do input antes de digitar) */
+input::placeholder,
+textarea::placeholder {
+  color: #A5C0AD; /* Cor mais clara para o placeholder */
+  font-style: italic; /* Texto em itálico */
+}
+
+/* Estilos para o botão de enviar */
+button[type="submit"] {
+  background-color: #5C7A65; /* Cor de fundo verde */
+  color: white; /* Cor do texto branca */
+  padding: 12px 20px; /* Espaçamento interno */
+  border: none; /* Sem borda */
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Muda o cursor para uma mãozinha ao passar por cima */
+  font-size: 1.1em; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  transition: background-color 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Estilos para o botão de enviar ao passar o mouse */
+button[type="submit"]:hover {
+  background-color: #3A4F3F; /* Escurece um pouco o verde ao passar o mouse */
+}
+
+#referencia {
+  margin: auto auto 0 0;
+  text-decoration: none;
+
+}
+
+#imagem2 {
+  width: 1000px;
+  border-image-slice: 30%;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
